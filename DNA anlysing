@@ -1,0 +1,5 @@
+DNA=input().strip()
+if "COV" in DNA:
+	print("Veikur!")
+else:
+	print("Ekki veikur!")	
