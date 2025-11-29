@@ -1,0 +1,17 @@
+t=input()
+s=0
+if "." not in t:
+        v=int(t)
+        s+=v
+        
+else:
+    for I in range(len(t)):
+        if t[I] =="." and int(t[I+1])>=5:
+            l=int(t[:I])+1
+            s+=l
+            break
+        elif t[I]=="." and int(t[I+1])<5:
+            l=int(t[:I])
+            s=l    
+
+print (s)
