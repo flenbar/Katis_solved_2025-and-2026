@@ -1,0 +1,18 @@
+a,b=input().split()
+maxu =""
+if int(a[-1])> int(b[-1]):
+    maxu= a[::-1]
+elif int(b[-1])> int(a[-1]):
+    maxu= b[::-1]
+else:
+     if int(a[-2])> int(b[-2]):
+        maxu= a[::-1]
+     elif int(b[-2])> int(a[-2]):
+        maxu= b[::-1]  
+     else:
+         if int(a[-3])> int(b[-3]):
+            maxu= a[::-1]
+         elif int(b[-3])> int(a[-3]):
+            maxu= b[::-1]      
+    
+print(maxu)
