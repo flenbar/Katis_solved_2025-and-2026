@@ -1,0 +1,7 @@
+t=input()
+for j in range (len(t)):
+    w=j
+    if t[j]=='a':
+        print(t[w:])
+        break
+        
