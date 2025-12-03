@@ -1,0 +1,9 @@
+a=input()
+cot=0
+for j in range (len(a)):
+    if a[j]=='e':
+        cot=cot+1
+cot=2*cot
+print(f"{a[0]}{cot*'e'}{a[-1]}")        
+        
+    
