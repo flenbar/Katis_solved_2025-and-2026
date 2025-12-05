@@ -1,0 +1,10 @@
+a=int(input())
+b=str(a)
+m=b[0:3]
+o=int(m)
+if o==555:
+    print(1)
+else:
+    print(0)       
+    
+
