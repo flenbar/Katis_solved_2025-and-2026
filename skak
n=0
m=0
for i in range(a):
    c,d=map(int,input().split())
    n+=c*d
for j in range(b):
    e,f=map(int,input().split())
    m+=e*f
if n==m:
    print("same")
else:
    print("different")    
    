@@ -1,0 +1,14 @@
+a,b=map(int,input().split())
+n=0
+m=0
+for i in range(a):
+    c,d=map(int,input().split())
+    n+=c*d
+for j in range(b):
+    e,f=map(int,input().split())
+    m+=e*f
+if n==m:
+    print("same")
+else:
+    print("different")    
+    
