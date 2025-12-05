@@ -1,0 +1,12 @@
+h=input()
+m=[]
+n=""
+for j in h:
+    if j=="+":
+        continue
+    else:
+        m.append(j)
+m.sort()
+for w in range (len(m)):
+    n+=m[w]+"+"
+print(n[:-1])    
